@@ -350,7 +350,7 @@ function FileDropZone({ onFilesProcessed }) {
       )}
 
       <Card style={{ marginTop: 24, background: 'rgba(34,211,238,0.05)', borderColor: 'rgba(34,211,238,0.2)' }}>
-        <div style={{ fontSize: 13, color: COLORS.accent, fontWeight: 600, marginBottom: 6 }}>🔒 Privacy First</div>
+        <div style={{ fontSize: 13, color: COLORS.accent, fontWeight: 600, marginBottom: 6 }}>Privacy First</div>
         <div style={{ fontSize: 12, color: COLORS.textMuted, lineHeight: 1.6 }}>
           All data stays in your browser. Nothing is uploaded to any server. When you close or refresh this tab, all data is gone permanently. No cookies, no local storage, no tracking.
         </div>
@@ -843,7 +843,7 @@ export default function App() {
               color: COLORS.text,
               letterSpacing: '-0.02em',
             }}>
-              <span style={{ color: COLORS.accent }}>◆</span> Phantom Portfolio
+              Phantom Portfolio
             </h1>
             <p style={{ fontSize: 12, color: COLORS.textMuted, margin: '4px 0 0', letterSpacing: '0.04em' }}>
               PRIVATE TRADE ANALYSIS · ZERO DATA RETENTION
